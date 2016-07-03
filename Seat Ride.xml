@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>Seat Ride</ModName>
+  <ModDiscription>Build your own working cinema in Parkitect!</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>Seat Ride@gfgfgg</OBJName>
+      <Type>FlatRide</Type>
+      <inGameName>Seats</inGameName>
+      <price>300</price>
+      <X>5</X>
+      <Z>5</Z>
+      <RestraintAngle>(0.0, 0.0, 0.0)</RestraintAngle>
+      <Excitement>0.45</Excitement>
+      <Intensity>0</Intensity>
+      <Nausea>0</Nausea>
+      <Animation>
+        <motors />
+        <phases>
+          <phase>
+            <events>
+              <Wait>
+                <Seconds>120</Seconds>
+              </Wait>
+            </events>
+          </phase>
+        </phases>
+      </Animation>
+      <Waypoints>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>53,68,67,92</connectedTo>
+          <localPosition>(-1.9, 0.2, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>85,53,45</connectedTo>
+          <localPosition>(-1.9, 0.0, -0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>3,85,95,33</connectedTo>
+          <localPosition>(-1.9, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>4,2</connectedTo>
+          <localPosition>(-1.9, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>5,3</connectedTo>
+          <localPosition>(-1.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>13,6,4,90</connectedTo>
+          <localPosition>(0.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>11,5</connectedTo>
+          <localPosition>(1.0, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>80</connectedTo>
+          <localPosition>(1.9, 0.5, -1.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>60,76,62</connectedTo>
+          <localPosition>(1.9, 0.2, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>84,52,89</connectedTo>
+          <localPosition>(1.9, 0.0, -0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>11,84,16</connectedTo>
+          <localPosition>(1.9, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>6,10</connectedTo>
+          <localPosition>(1.8, 0.0, 1.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>68,83</connectedTo>
+          <localPosition>(-1.9, 0.5, -1.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>86,5,21,90,36,94</connectedTo>
+          <localPosition>(0.0, 0.0, 0.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>61,86,93,28,43</connectedTo>
+          <localPosition>(0.0, 0.0, -0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>72,77,81</connectedTo>
+          <localPosition>(0.0, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>10,18</connectedTo>
+          <localPosition>(1.6, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>18,90</connectedTo>
+          <localPosition>(0.4, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>16,17</connectedTo>
+          <localPosition>(1.0, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>87,20</connectedTo>
+          <localPosition>(1.6, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>19,21</connectedTo>
+          <localPosition>(1.0, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>20,13</connectedTo>
+          <localPosition>(0.4, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>23,94</connectedTo>
+          <localPosition>(0.4, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>24,22</connectedTo>
+          <localPosition>(1.0, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>84,23</connectedTo>
+          <localPosition>(1.6, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>88,26</connectedTo>
+          <localPosition>(1.6, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>25,27</connectedTo>
+          <localPosition>(1.0, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>26,86</connectedTo>
+          <localPosition>(0.4, 0.0, 0.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>29,14</connectedTo>
+          <localPosition>(0.4, 0.0, -0.2)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>30,28</connectedTo>
+          <localPosition>(1.0, 0.0, -0.2)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>89,29</connectedTo>
+          <localPosition>(1.6, 0.0, -0.2)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>90,32</connectedTo>
+          <localPosition>(-0.4, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>31,33</connectedTo>
+          <localPosition>(-1.0, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>32,2,35,47</connectedTo>
+          <localPosition>(-1.6, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>95,35</connectedTo>
+          <localPosition>(-1.6, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>36,34,33</connectedTo>
+          <localPosition>(-1.0, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>13,35</connectedTo>
+          <localPosition>(-0.4, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>94,38</connectedTo>
+          <localPosition>(-0.5, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>37,39</connectedTo>
+          <localPosition>(-1.1, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>38,85</connectedTo>
+          <localPosition>(-1.6, 0.0, 0.4)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>85,41</connectedTo>
+          <localPosition>(-1.6, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>42,40</connectedTo>
+          <localPosition>(-1.0, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>41,86</connectedTo>
+          <localPosition>(-0.4, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,44</connectedTo>
+          <localPosition>(-0.4, 0.0, -0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>43,45</connectedTo>
+          <localPosition>(-1.0, 0.0, -0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>44,1</connectedTo>
+          <localPosition>(-1.6, 0.0, -0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>53,47</connectedTo>
+          <localPosition>(-1.6, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>46,48,33</connectedTo>
+          <localPosition>(-1.1, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>47,93</connectedTo>
+          <localPosition>(-0.4, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>50,93</connectedTo>
+          <localPosition>(0.4, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>51,49</connectedTo>
+          <localPosition>(1.0, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>50,52</connectedTo>
+          <localPosition>(1.6, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>9,60,51</connectedTo>
+          <localPosition>(1.9, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>0,1,92,46</connectedTo>
+          <localPosition>(-1.9, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>55,92</connectedTo>
+          <localPosition>(-1.6, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>56,54</connectedTo>
+          <localPosition>(-1.1, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>61,55</connectedTo>
+          <localPosition>(-0.4, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>58,61</connectedTo>
+          <localPosition>(0.4, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>59,57</connectedTo>
+          <localPosition>(1.0, 0.2, -0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>58,60</connectedTo>
+          <localPosition>(1.6, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>52,8,59</connectedTo>
+          <localPosition>(1.9, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>72,14,57,56,93</connectedTo>
+          <localPosition>(0.0, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>8,63</connectedTo>
+          <localPosition>(1.6, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>62,64</connectedTo>
+          <localPosition>(1.0, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>63,91</connectedTo>
+          <localPosition>(0.4, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>66,91</connectedTo>
+          <localPosition>(-0.4, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>67,65</connectedTo>
+          <localPosition>(-1.1, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>0,66</connectedTo>
+          <localPosition>(-1.6, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>0,12,69</connectedTo>
+          <localPosition>(-1.9, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>70,68</connectedTo>
+          <localPosition>(-1.6, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>71,69</connectedTo>
+          <localPosition>(-1.1, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>70,72</connectedTo>
+          <localPosition>(-0.4, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>15,61,71,73</connectedTo>
+          <localPosition>(0.0, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>74,72</connectedTo>
+          <localPosition>(0.4, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>75,73</connectedTo>
+          <localPosition>(1.1, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>76,74</connectedTo>
+          <localPosition>(1.6, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>8,80,75</connectedTo>
+          <localPosition>(1.8, 0.4, -1.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>78,15</connectedTo>
+          <localPosition>(0.4, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>79,77</connectedTo>
+          <localPosition>(1.1, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>78,80</connectedTo>
+          <localPosition>(1.6, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>76,7,79</connectedTo>
+          <localPosition>(1.8, 0.4, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>15,82</connectedTo>
+          <localPosition>(-0.4, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>81,83</connectedTo>
+          <localPosition>(-1.0, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>False</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>82,12</connectedTo>
+          <localPosition>(-1.6, 0.5, -1.6)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>10,9,88,24</connectedTo>
+          <localPosition>(1.9, 0.0, 0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>2,1,40,39,95</connectedTo>
+          <localPosition>(-1.9, 0.0, 0.2)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,13,42,27,94</connectedTo>
+          <localPosition>(0.0, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>19</connectedTo>
+          <localPosition>(1.9, 0.0, 0.7)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>89,84,25</connectedTo>
+          <localPosition>(1.9, 0.0, 0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>30,9,88</connectedTo>
+          <localPosition>(1.9, 0.0, -0.1)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>17,13,5,31</connectedTo>
+          <localPosition>(0.0, 0.0, 1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>64,65</connectedTo>
+          <localPosition>(0.0, 0.3, -1.0)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>54,0,53</connectedTo>
+          <localPosition>(-2.0, 0.2, -0.8)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>14,61,49,48</connectedTo>
+          <localPosition>(0.0, 0.1, -0.5)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>22,13,86,37</connectedTo>
+          <localPosition>(0.0, 0.0, 0.3)</localPosition>
+        </Waypoint>
+        <Waypoint>
+          <isOuter>True</isOuter>
+          <isRabbitHoleGoal>False</isRabbitHoleGoal>
+          <connectedTo>34,2,85</connectedTo>
+          <localPosition>(-1.9, 0.0, 0.7)</localPosition>
+        </Waypoint>
+      </Waypoints>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+  </Objects>
+</Mod>

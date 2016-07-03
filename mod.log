@@ -1,0 +1,18 @@
+[16-07-03 16:56:21] Info: Compiling Seat Ride to bin/build-160703165621452.dll...
+[16-07-03 16:56:21] Info: Compiling from `ModSparkLoader.csproj`.
+[16-07-03 16:56:21] Info: Resolved assembly reference `Assembly-CSharp` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\Assembly-CSharp.dll`
+[16-07-03 16:56:21] Info: IGNORING assembly reference `Depender`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System` to `System.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System.Core` to `System.Core.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System.Data` to `System.Data.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System.Data.DataSetExtensions` to `System.Data.DataSetExtensions.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System.Xml` to `System.Xml.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `System.Xml.Linq` to `System.Xml.Linq.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `UnityEngine` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\UnityEngine.dll`
+[16-07-03 16:56:21] Info: Resolved assembly reference `UnityEngine.UI` to `d:/program files (x86)/steam\SteamApps\common\Parkitect\Parkitect_Data\Managed\UnityEngine.UI.dll`
+[16-07-03 16:56:21] Info: Source files: ModSparkLoader\FlatRideLoader.cs, ModSparkLoader\Main.cs, ModSparkLoader\ModLoader.cs from `C:\Users\liam\Documents\Parkitect\pnmods\Seat Ride`.
+[16-07-03 16:56:21] Info: Compile using compiler version v3.5.
+[16-07-03 16:56:32] Info: Loaded build-160703165621452, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-07-03 16:56:32] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+[16-07-03 17:01:07] Info: Loaded build-160703165621452, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-07-03 17:01:07] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
